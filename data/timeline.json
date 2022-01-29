@@ -1,0 +1,31 @@
+[
+	{
+		"date": "01-07-2022",
+		"title": "This Website",
+		"description": "Launched my first personal website",
+		"icon": "feather:edit-3",
+		"link": {
+			"text": "Visit",
+			"url": "https://vivekpal.vercel.app/"
+		}
+	},
+	
+	{
+		"date": "01-10-2021",
+		"title": "Started my College.",
+		"description": "Pursuing a Bachelor's Degree in Computer Science",
+		"icon": "feather:book"
+	},
+	{
+		"date": "01-04-2021",
+		"title": "Completed High School",
+		"description": "I completed my high school education",
+		"icon": "feather:book"
+	},
+	{
+		"date": "06-30-2003",
+		"title": "Birth Date!",
+		"description": "I was born on June 30th, 2003",
+		"icon": "feather:gift"
+	}
+]
