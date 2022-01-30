@@ -109,13 +109,13 @@ export default function HomePage() {
 					{animations ? (
 						<Transition duration={1000}>
 							<Title>
-								Hey <Wave>👋</Wave> This is Vivek, <LineBreak />a{' '}
+								Hi <Wave>👋</Wave> This is Vivek, <LineBreak />a{' '}
 								<StyledPill>Web Developer</StyledPill>
 							</Title>
 						</Transition>
 					) : (
 						<Title>
-							Hey <Wave>👋</Wave> This is Vivek, <LineBreak />a{' '}
+							Hi <Wave>👋</Wave> This is Vivek, <LineBreak />a{' '}
 							<StyledPill>Web Developer</StyledPill>
 						</Title>
 					)}
