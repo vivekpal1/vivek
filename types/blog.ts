@@ -18,3 +18,4 @@ export interface FrontMatter extends RawFrontMatter {
 export interface Post {
 	frontmatter: FrontMatter;
 	source: MDXRemoteSerializeResult;
+}
