@@ -48,6 +48,7 @@ export default function Error() {
 						<Icon icon="feather:alert-triangle" tw="h-12 text-primary-500 w-auto" />
 					</IconContainer>
 					<Text>
+						<Title>Chachi 404</Title>
 						<Title>Whoops!</Title>
 						<Description>
 							Looks like you took a wrong turn.
