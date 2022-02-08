@@ -140,7 +140,6 @@ export const ElementStyles = css`
 
 	.remark-code-title {
 		${tw`
-			light:bg-white \
 			px-4 py-2 \
 			text-gray-300 dark:text-white \
 			font-medium \
