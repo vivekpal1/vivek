@@ -103,7 +103,6 @@ export default function HomePage() {
 
 	return (
 		<Layout.Default>
-			{isBirthday && <Event event={EventType.BIRTHDAY} />}
 			<Container>
 				<Content>
 					{animations ? (
