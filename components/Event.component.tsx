@@ -20,30 +20,8 @@ export function Event({ event }: EventProps) {
 
 	useEffect(() => {
 		switch (event) {
-			case EventType.BIRTHDAY: {
-				setTimeout(() => {
-					Promise.all([
-						// Left Edge
-						confetti({
-							particleCount: 800,
-							startVelocity: 100,
-							angle: 60,
-							spread: 200,
-							origin: { x: 0, y: 0 },
-						}),
-						// Right Edge
-						confetti({
-							particleCount: 400,
-							startVelocity: 100,
-							angle: 120,
-							spread: 150,
-							origin: { x: 0, y: 0 },
-						}),
-					]);
-				}, 1000);
-			}
-		}
-	}, [confetti, event]);
+			
+			}, [confetti, event]);
 
 	return <EventCanvas ref={canvasRef} />;
 }
