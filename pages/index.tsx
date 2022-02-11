@@ -103,13 +103,14 @@ export default function HomePage() {
 
 	return (
 		<Layout.Default>
+			{isBirthday && <Event event={EventType.BIRTHDAY} />}
 			<Container>
 				<Content>
 					{animations ? (
 						<Transition duration={1000}>
 							<Title>
-								Hi <Wave>👋</Wave> This is Vivek, <LineBreak />a{' '}
-								Web Developer
+								Hi <Wave>👋</Wave> This is Vivek, <LineBreak /> 
+								a Web Developer
 							</Title>
 						</Transition>
 					) : (
