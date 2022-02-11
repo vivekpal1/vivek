@@ -116,7 +116,7 @@ export default function HomePage() {
 					) : (
 						<Title>
 							Hi <Wave>👋</Wave> This is Vivek, <LineBreak />a{' '}
-							<StyledPill>Web Developer</StyledPill>
+							Web Developer
 						</Title>
 					)}
 					{animations ? (
