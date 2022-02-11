@@ -109,7 +109,7 @@ export default function HomePage() {
 						<Transition duration={1000}>
 							<Title>
 								Hi <Wave>👋</Wave> This is Vivek, <LineBreak />a{' '}
-								<StyledPill>Web Developer</StyledPill>
+								Web Developer
 							</Title>
 						</Transition>
 					) : (
