@@ -115,8 +115,8 @@ export default function HomePage() {
 						</Transition>
 					) : (
 						<Title>
-							Hi <Wave>👋</Wave> This is Vivek, <LineBreak />a{' '}
-							Web Developer
+							Hi <Wave>👋</Wave> This is Vivek, <LineBreak />
+							a Web Developer
 						</Title>
 					)}
 					{animations ? (
