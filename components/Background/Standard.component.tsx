@@ -8,8 +8,8 @@ import TailwindCSS from '~/tailwind.config';
 import { Shaders } from '.';
 
 const Container = styled.div`
-	${tw`fixed inset-0`}
-	z-index: -10;
+	${tw`fixed inset-10`}
+	z-index: -20;
 `;
 
 export function Standard() {
@@ -26,9 +26,9 @@ export function Standard() {
 		const gl = renderer.gl;
 
 		const camera = new Camera(gl, {
-			fov: 15,
+			fov: 10,
 		});
-		camera.position.z = 15;
+		camera.position.z = 10;
 
 		function handleReisze() {
 			renderer.setSize(window.innerWidth, window.innerHeight);
@@ -44,13 +44,13 @@ export function Standard() {
 			handleReisze();
 		} catch (error) {}
 
-		const numParticles = 100;
-		const position = new Float32Array(numParticles * 3);
-		const random = new Float32Array(numParticles * 4);
+		const numParticles = 25;
+		const position = new Float32Array(numParticles * 4);
+		const random = new Float32Array(numParticles * 5);
 
 		for (let i = 0; i < numParticles; i++) {
-			position.set([Math.random(), Math.random(), Math.random()], i * 3);
-			random.set([Math.random(), Math.random(), Math.random(), Math.random()], i * 4);
+			position.set([Math.random(), Math.random(), Math.random()], i * 4);
+			random.set([Math.random(), Math.random(), Math.random(), Math.random()], i * 5);
 		}
 
 		const geometry = new Geometry(gl, {
@@ -88,7 +88,7 @@ export function Standard() {
 		function update(t) {
 			incrementAnimationId(requestAnimationFrame(update));
 
-			particles.rotation.z += 0.0025;
+			particles.rotation.z += 0.00025;
 			program.uniforms.uTime.value = t * 0.00025;
 
 			renderer.render({
