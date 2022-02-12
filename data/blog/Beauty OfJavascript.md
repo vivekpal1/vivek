@@ -6,7 +6,7 @@ description: Here is why I love to code in Javascript
 date: '2022-02-11'
 ---
 
-I started learning Javascript when I was in 9th standerd. Although I discontinued it in 11th. But when I seriously started learning it last year, I felt love to code in it.
+I started learning Javascript when I was in 9th standard. Although I discontinued it in 11th. But when I seriously started learning it last year, I felt love to code in it.
 Many people assume that if you love JS, then you tried no other language. But I think that it is not true. Every language is made for specific purpose. As Javascript is mainly for web development, the thing I do most.
 I have also tried to code Python and C. It doesn't mean that I hate these languages. It's just that Javascript suits me most
 
