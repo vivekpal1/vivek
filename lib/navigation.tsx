@@ -104,16 +104,13 @@ export function useNavigation() {
 
 	const settingsItems: NavigationItems = [
 		[
+			
 			{
 				type: NavigationItemType.ACTION,
-				icon: 'feather:image',
-				endIcon: background ? 'feather:check-square' : 'feather:square',
-				text: `Animations ${background ? 'On' : 'Off'}`,
-				onClick: () =>
-					state.set((settings) => ({
-						...settings,
-						animations: !settings.animations,
-					})),
+				icon: 'feather:moon',
+				endIcon: isDark ? 'feather:check-square' : 'feather:square',
+				text: `Dark Theme ${isDark ? 'On' : 'Off'}`,
+				onClick: () => setTheme(isDark ? 'light' : 'dark'),
 			},
 			{
 				type: NavigationItemType.ACTION,
