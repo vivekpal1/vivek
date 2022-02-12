@@ -110,7 +110,6 @@ export default function HomePage() {
 							<Title>
 								Hello, This is <LineBreak /> Vivek Pal
 								<LineBreak />
-								a Web Developer
 							</Title>
 						</Transition>
 					) : (
