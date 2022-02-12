@@ -16,11 +16,11 @@ I have also tried to code Python and C. It doesn't mean that I hate these langua
 
 #### I can do many things with Javascript
 
-- I can create front end of website and even add awesome UI and UX to it using **React,Vue,Angular, with Tailwind, Chakra Ui, Material UI, Bootstrap, etc**
+- I can create front end of website and even add awesome UI and UX to it using **[React](https://reactjs.org), Vue, [Angular](https://angular.io), with [Tailwind](https://tailwindcss.com), Chakra Ui, Material UI, Bootstrap, etc**
 
-- I can do backend things using **Nodejs, Express, MongoDB, Firebase, Firestore, etc**
+- I can do backend things using **[Nodejs](https://nodejs.org), Express, MongoDB, Firebase, etc**
 
-- How can one forget about 3D libraries and frameworks, Yes you can create 3D models on a webpage using **Three.js, Babylon.js, etc**
+- How can one forget about 3D libraries and frameworks, Yes you can create 3D models on a webpage using **[Three.js](https://threejs.org), Babylon.js, etc**
 
 - I can create native android and iOS applications with same code of js using **React Native**
 
