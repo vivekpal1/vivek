@@ -16,3 +16,14 @@ This is my Personal Website! Where I share my thoughts and experiences and weekl
 You can also follow me on my twitter [@vivekpal_](https://twitter.com/vivekpal_) for my latest tweets.
 
 #### I hope you will enjoy it.
+<br>
+### Who I am
+
+👦 I’m currently learning web development technologies like React, Next.js etc.
+🧑‍💻 Also learning Some stuff about 3D web like webgl and webvr erc
+
+🇮🇳 I'm based in Uttar Pradesh, India (Bharat)
+🕉 I myself a proud Hindu.
+📖 I love to Read Blogs, Docs and Tweets
+🎧 I love to listen podcasts and enjoys music.
+
