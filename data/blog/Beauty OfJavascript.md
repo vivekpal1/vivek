@@ -22,13 +22,13 @@ I have also tried to code Python and C. It doesn't mean that I hate these langua
 
 - How can one forget about 3D libraries and frameworks, Yes you can create 3D models on a webpage using **[Three.js](https://threejs.org), Babylon.js, etc**
 
-- I can create native android and iOS applications with same code of js using **React Native**
+- I can create native android and iOS applications with same code of js using **[React Native](https://reactnative.dev)**
 
-- I can create desktop applications using js using **Electron.js**
+- I can create desktop applications using js using **[Electron.js](https://www.electronjs.org)**
 
-- Machine Learning **TensorFlow.js**
+- Machine Learning **[TensorFlow.js](https://www.electronjs.org)**
 
-- GPU accelerated Neural networks in JavaScript using **Brain.js**
+- GPU accelerated Neural networks in JavaScript using **[Brain.js](https://brain.js.org/#/)**
 
 
 ### Other Interesting things about Javascript
