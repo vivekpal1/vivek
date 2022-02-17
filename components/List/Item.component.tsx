@@ -62,7 +62,7 @@ const Meta = styled.div(tw`
 `);
 
 const Title = styled.h1(tw`
-	text-gray-700 dark:text-white \
+	text-gray-600 dark:text-white \
 	text-lg font-bold
 `);
 
