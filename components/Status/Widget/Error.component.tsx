@@ -9,7 +9,7 @@ const ErrorContainer = styled.div(tw`
 	backdrop-filter backdrop-blur-sm \
 	border-2 border-red-500 \
 	rounded-lg hover:shadow-lg \
-	transition ease-in-out duration-300 \
+	transition ease-in-out duration-100 \
 	motion-safe:animate-pulse
 `);
 
