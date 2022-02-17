@@ -69,7 +69,7 @@ const Banner = styled.div`
 			absolute top-0 left-0 w-full h-auto max-h-64 lg:max-h-96 \
 			mb-8 \
 			rounded-3xl object-cover select-none shadow-xl \
-			transition ease-in-out duration-300
+			transition ease-in-out duration-100
 		`}
 	}
 `;
