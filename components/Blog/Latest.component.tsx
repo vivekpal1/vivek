@@ -17,7 +17,7 @@ const Container = styled.a(tw`
 	rounded-2xl hover:shadow-xl cursor-pointer \
 	border-2 border-gray-100 dark:border-gray-500 \
 	transform motion-safe:hover:-translate-y-1 \
-	transition ease-in-out duration-300 \
+	transition ease-in-out duration-100 \
 	focus:outline-none focus:ring-4 focus:ring-offset-8 focus:ring-primary-500
 `);
 
@@ -27,7 +27,7 @@ const Banner = styled.div`
 		w-full xl:w-2/4 lg:max-w-xl h-64 sm:h-72 lg:h-96 \
 		border-b-2 sm:border-0 sm:border-r-2 border-gray-100 dark:border-gray-500 \
 		overflow-hidden rounded-2xl rounded-bl-none lg:rounded-bl-2xl rounded-br-none lg:rounded-br-2xl lg:rounded-tr-none lg:rounded-br-none \
-		transition ease-in-out duration-300
+		transition ease-in-out duration-100
 	`}
 
 	img {
