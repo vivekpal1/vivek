@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import tw from 'twin.macro';
 import { MDXRemote } from 'next-mdx-remote';
 
-import { Blog, Pill } from '~/components';
+import { Blog } from '~/components';
 import { getPost, getAllPostSlugs } from '~/lib/post';
 import { Layout } from '~/layouts';
 
@@ -158,11 +158,6 @@ export default function BlogPost({ post }: BlogPostProps) {
 							)}
 							<Title>{post.frontmatter.title}</Title>
 						</div>
-
-						<DateContainer>
-							<Pill.Date>{post.frontmatter.date}</Pill.Date>
-						</DateContainer>
-
 						{post.frontmatter.description && post.frontmatter.description_show && (
 							<Description>{post.frontmatter.description}</Description>
 						)}
