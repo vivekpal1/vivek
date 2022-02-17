@@ -2,8 +2,7 @@ import styled from '@emotion/styled';
 import tw from 'twin.macro';
 import { format, parse } from 'date-fns';
 import { Icon } from '@iconify/react';
-
-import { Button, Pill } from '~/components';
+import { Button} from '~/components';
 import { Layout } from '~/layouts';
 
 import type { GetStaticProps } from 'next';
@@ -141,9 +140,6 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 											<Title>
 												<span>{event.title}</span>
 												<Spacer />
-												<Pill.Date small={true}>
-													{format(event.date, 'PPP')}
-												</Pill.Date>
 											</Title>
 
 											<Description>{event.description}</Description>
