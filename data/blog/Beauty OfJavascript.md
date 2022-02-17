@@ -1,6 +1,6 @@
 ---
 banner_alt: Image of Javascript
-banner: https://source.unsplash.com/?nature
+banner: https://source.unsplash.com/1200x600/?nature
 title: Beauty Of Javascript
 title_prefix: My First Blog
 description: Here is why I love to code in Javascript
