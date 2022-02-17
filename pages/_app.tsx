@@ -15,7 +15,7 @@ const GlobalStyles = css`
 			bg-gray-100 \
 			text-gray-700 dark:text-gray-400 \
 			font-inter \
-			transition ease-in-out duration-300
+			transition ease-in-out duration-100
 		`}
 
 		&.dark {
