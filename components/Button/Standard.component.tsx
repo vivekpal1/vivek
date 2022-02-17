@@ -30,8 +30,8 @@ const ButtonStyles = css(tw`
 	bg-gray-50 hover:bg-gray-100 hover:bg-opacity-50 dark:bg-gray-900 dark:hover:bg-gray-800 \
 	text-base font-bold text-primary-300 hover:text-primary-400 \
 	rounded-lg \
-	transition ease-in-out duration-300 \
-	focus:outline-none focus:ring-2 focus:ring-primary-500
+	transition ease-in-out duration-100 \
+	focus:outline-none focus:ring-1 focus:ring-primary-600
 `);
 
 const ButtonContainer = styled.button(ButtonStyles);
