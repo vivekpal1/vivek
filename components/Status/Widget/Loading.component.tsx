@@ -14,7 +14,7 @@ const Container = styled.div(tw`
 	backdrop-filter backdrop-blur-sm \
 	border-2 border-gray-200 dark:border-gray-600 \
 	rounded-lg hover:shadow-lg \
-	transition ease-in-out duration-300 \
+	transition ease-in-out duration-100 \
 	motion-safe:animate-pulse
 `);
 
