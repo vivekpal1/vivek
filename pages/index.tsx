@@ -3,8 +3,8 @@ import tw from 'twin.macro';
 import { differenceInYears, isSameDay, isSameMonth } from 'date-fns';
 import { Icon } from '@iconify/react';
 
-import { Button, Event, Pill, Transition, Wave } from '~/components';
-import { EventType, NavigationItemType, WithChildren } from '~/types';
+import { Button, Transition, } from '~/components';
+import { NavigationItemType,} from '~/types';
 import { Layout } from '~/layouts';
 import { usePersistantState } from '~/lib';
 
@@ -34,10 +34,6 @@ const Description = styled.p(tw`
 
 const LineBreak = styled.br(tw`
 	hidden sm:block
-`);
-
-const StyledPill = styled(Pill.Standard)(tw`
-	mt-4
 `);
 
 const Actions = styled.div`
@@ -102,7 +98,6 @@ export default function HomePage() {
 
 	return (
 		<Layout.Default>
-			{isBirthday && <Event event={EventType.BIRTHDAY} />}
 			<Container>
 				<Content>
 					{animations ? (
