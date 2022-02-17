@@ -18,8 +18,8 @@ const Container = styled.a(tw`
 	border-2 border-gray-100 dark:border-gray-500 \
 	rounded-2xl overflow-hidden hover:shadow-xl cursor-pointer \
 	transform motion-safe:hover:-translate-y-1 \
-	transition ease-in-out duration-300 \
-	focus:outline-none focus:ring-4 focus:ring-offset-8 focus:ring-primary-500
+	transition ease-in-out duration-100 \
+	focus:outline-none focus:ring-2 focus:ring-offset-8 focus:ring-primary-500
 `);
 
 const Banner = styled.div`
