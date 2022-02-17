@@ -37,7 +37,7 @@ const StyledItems = styled(Menu.Items)<{ position: Position }>`
 	${tw` 
 		absolute sm:w-56 \ 
 		mt-2 \ 
-		bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 \ 
+		bg-gray-50 bg-opacity-75 dark:bg-gray-800 dark:bg-opacity-75 \ 
 		backdrop-filter backdrop-blur-sm \ 
 		border border-gray-100 dark:border-gray-500 \ 
 		rounded-md shadow-lg \ 
