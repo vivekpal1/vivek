@@ -22,7 +22,7 @@ const Container = styled.a<{ small: boolean }>`
 		font-medium \
 		border-2 border-gray-200 dark:border-gray-700 \
 		rounded-lg cursor-pointer \
-		transition ease-in-out duration-300 \
+		transition ease-in-out duration-100 \
 		focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-primary-500
 	`}
 
