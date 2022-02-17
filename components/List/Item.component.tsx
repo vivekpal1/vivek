@@ -24,7 +24,7 @@ const Container = styled.li(tw`
 	backdrop-filter backdrop-blur-sm \
 	border border-gray-100 dark:border-gray-500 \
 	rounded-lg \
-	transition ease-in-out duration-300
+	transition ease-in-out duration-100
 `);
 
 const Content = styled.div(tw`
