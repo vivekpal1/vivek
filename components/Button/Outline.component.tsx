@@ -16,9 +16,9 @@ interface OutlineProps extends AnchorHTMLAttributes<HTMLAnchorElement>, WithClas
 const Container = styled.a<{ small: boolean }>`
 	${tw`
 		inline-flex items-center justify-center w-full sm:w-auto \
-		bg-gray-50 bg-opacity-75 hover:bg-gray-100 hover:bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 dark:hover:bg-gray-800 dark:hover:bg-opacity-75 \
+		bg-gray-200 bg-opacity-50 hover:bg-gray-100 hover:bg-opacity-50 dark:bg-gray-900 dark:bg-opacity-75 dark:hover:bg-gray-800 dark:hover:bg-opacity-75 \
 		backdrop-filter backdrop-blur-sm saturate-200 \
-		text-gray-400 hover:text-gray-500 dark:text-primary-500 dark:hover:text-primary-400 \
+		text-gray-500 hover:text-gray-800 dark:text-primary-200 dark:hover:text-primary-800 \
 		font-medium \
 		border-2 border-gray-200 dark:border-gray-700 \
 		rounded-lg cursor-pointer \
@@ -26,7 +26,7 @@ const Container = styled.a<{ small: boolean }>`
 		focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-primary-500
 	`}
 
-	${({ small }) => (small ? tw`px-4 py-1 text-sm` : tw`px-8 py-2`)}
+	${({ small }) => (small ? tw`px-3 py-1 text-sm` : tw`px-7 py-2`)}
 `;
 
 const StyledIcon = styled(Icon)(tw`mt-1 mr-3`);
