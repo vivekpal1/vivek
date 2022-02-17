@@ -1,6 +1,6 @@
 ---
 banner_alt: Image of Javascript
-banner: https://www.tutorialrepublic.com/lib/images/javascript-illustration.png
+banner: https://miro.medium.com/max/700/0*ZyDW90jzpL_1AwiP.jpg
 title: Beauty Of Javascript
 title_prefix: My First Blog
 description: Here is why I love to code in Javascript
