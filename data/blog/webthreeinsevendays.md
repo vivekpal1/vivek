@@ -31,6 +31,6 @@ I just watched this 16 hours full one shot tutorial in Solidity and Python, from
 
 
 I also listend to some podcasts and read articles about on Smart Contracts and Blockchain.
-I will recommend this podcast to anyone who wants to learn about web 3. [Listen Here](https://insureblocks.com)
+I will recommend insureblocks.com podcast to anyone who wants to learn about web 3.
 
 ### 
