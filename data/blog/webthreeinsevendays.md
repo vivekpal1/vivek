@@ -27,7 +27,6 @@ If you want to learn more, how web 3 is way ahead of web 2 you can read official
 As I already familar with basic web technologies, I was eager to learn about Web 3. Podcasts, blogs, and tweets from web 3 experts pushed me to learn it within few days.
 I started learning some conceps of blockchain. I found blockchains are an incredible piece of technology, but they also aren't trivial to learn. You'll have to put some time into it to understand.
 I just watched this 16 hours full one shot tutorial in Solidity and Python, from freeCodeCamp.
-<iframe width="500" height="300" src="https://www.youtube.com/embed/M576WGiDBdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 I also listend to some podcasts and read articles about on Smart Contracts and Blockchain.
