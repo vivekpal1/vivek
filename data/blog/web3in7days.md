@@ -47,7 +47,7 @@ I also listend to some podcasts and read articles about on Smart Contracts and B
 - If you already know Front-End Development, then it's a win win for you, go ahead.
   Web 2.0 Skills like HTML, CSS, Javascript, React will give you a head start into Web3.
 
-- Learn Fundamentals of Blockchain and Smart Contracts with Solidity
+- Learn Fundamentals of Blockchain and Smart Contracts with Solidity.
  [Creating Zombies](https://cryptozombies.io/) will help you to learn solidity.
 
 - Learn about Crypto Wallet like Metamask
