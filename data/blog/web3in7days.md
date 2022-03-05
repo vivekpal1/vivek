@@ -1,7 +1,7 @@
 ---
 banner_alt: blockchain
 banner: https://source.unsplash.com/1600x600/?blockchain
-title: I forced myself to learn Web 3 in 7 Days
+title: I learned Web 3 in 7 Days
 description: Here is why I love to code in Javascript
 date: '2022-03-01'
 ---
