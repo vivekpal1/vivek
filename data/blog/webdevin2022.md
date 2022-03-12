@@ -33,21 +33,33 @@ We have 3 paths:
 [CS50-Video-on-Web-Technologies](https://youtu.be/2VauFS071pg)
 
 - HTML - You can learn it from, 
+
 [W3Schools](https://www.w3schools.com/html/html_intro.asp), 
+
 [FreeCodeCamp-English](https://youtu.be/pQN-pnXPaVg), 
+
 [CodeWithHarry-Hindi](https://youtu.be/BsDoLVMnmZs)
 
 - CSS - 
+
 [W3Schools](https://www.w3schools.com/css/css_intro.asp), 
+
 [FreeCodeCamp-English](https://youtu.be/1Rs2ND1ryYc), 
+
 [CodeWithHarry-Hindi](https://youtu.be/Edsxf_NBFrw)
 
 - JavaScript - 
+
 [W3Schools](https://www.w3schools.com/js/js_intro.asp), 
+
 [The Modern JavaScript Tutorial (READ)](https://javascript.info/),
+
 [FreeCodeCamp-English](https://youtu.be/jS4aFq5-91M), 
+
 [CodeWithHarry-Hindi-course](https://youtube.com/playlist?list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL), 
+
 [Best Course on Udemy (PAID)](https://www.udemy.com/course/the-complete-javascript-course/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-diQA3kryZyzK2qOfo5pcbw&utm_medium=udemyads&utm_source=aff-campaign),
+
 [Build 30 Things in 30 Days with Vanilla Javascipt](https://javascript30.com/)
 
 - Now you must build awesome projects with these skills. [Projects List from freeCodeCamp.org](https://www.freecodecamp.org/news/javascript-projects-for-beginners/)
@@ -57,10 +69,15 @@ To master some in-depth topics in javascript, and what works behind the scenes o
 #### Git and Github
 
 - Learn version control like Git and repo hosting service Github - 
+
 [W3Schools](https://www.w3schools.com/git/)
+
 [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/)
+
 [Github Docs](https://docs.github.com/en/get-started)
+
 [CodeWithHarry-Hindi-course](https://youtube.com/playlist?list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi)
+
 [CS50](https://youtu.be/eulnSXkhE7I)
 
 - Use git and github in all your projects.
@@ -85,9 +102,12 @@ You can also go with CSS preprocessors like Sass, Less, etc. (But not recommende
 In 2022 I will not recommend Bootstrap with a big no to jquery.
 Instead Lean Tailwind:
 
-- TailwindCSS - [Tailwind Docs](https://tailwindcss.com/docs)
-                [CodeWithHarry-Hindi-course](https://youtube.com/playlist?list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O)
-                [English-Tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
+- TailwindCSS - 
+[Tailwind Docs](https://tailwindcss.com/docs)
+ 
+[CodeWithHarry-Hindi-course](https://youtube.com/playlist?list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O)
+ 
+[English-Tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
 
 - Chakra UI and Material UI. (Recommended after React.js)
 
@@ -96,7 +116,9 @@ Instead Lean Tailwind:
 React.js Recommended.
 
 - [React](https://reactjs.org/docs/getting-started.html)
+
 [CodeWithHarry-Hindi-React](https://youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt)
+
 [FreeCodeCamp-React](https://youtu.be/bMknfKXIFA8)
          
 
@@ -109,7 +131,9 @@ React.js Recommended.
 After Learning React.js Go ahead with React frameworks such as 
 
 - Next JS. (Useful for server side rendering)
+
 [Codevolution-Tutoral-English](https://youtube.com/playlist?list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH)
+
 [CodeWithHarry-Hindi-course](https://youtube.com/playlist?list=PLu0W_9lII9agtWvR_TZdb_r0dNI8-lDwG)
 
 Also if you have learned Vue.js you can go ahead and learn Nuxt.js.
@@ -138,13 +162,18 @@ You can go with other languages like PHP, Java, Rust, Python and Go but Javascri
 ###### Learn Databases
 - Relational Databases - [MySQL](https://youtu.be/7S_tz1z_5bA) or PostgreSQL are reccomended.
 - NoSQL Databases - MongoDB recommended.
+
 [CodeWithHarry-Hindi](https://youtu.be/oSIv-E60NiU)
+
 [Traversy Media](https://youtu.be/pWbMrx5rVBE)
+
 - Learn about ACID, ORMs, Transactions, Database Normalization etc.
 
 ###### APIs
 [FreeCodeCamp-Tutorial](https://youtu.be/GZvSYJDk-us)
+
 - REST APIs - [Tutorial](https://youtu.be/BZi44GOD8kY)
+
 - JSON [Tutorial](https://youtu.be/iiADhChRriM)
 
 ###### Web Security
@@ -152,6 +181,7 @@ You can go with other languages like PHP, Java, Rust, Python and Go but Javascri
 
 ###### GraphQL
 - [GraphQL Docs](https://graphql.org/learn/)
+
 - [FreeCodeCamp-Tutorial](https://youtu.be/ed8SzALpx1Q)
 
 ###### Learn about CDNs and Caching
