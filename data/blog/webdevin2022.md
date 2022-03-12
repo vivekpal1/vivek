@@ -66,7 +66,7 @@ We have 3 paths:
 
 To master some in-depth topics in javascript, and what works behind the scenes of javascript, you must watch [Namaste Javascript](https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
 
-#### Git and Github
+### Git and Github
 
 - Learn version control like Git and repo hosting service Github - 
 
