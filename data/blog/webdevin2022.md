@@ -26,7 +26,7 @@ We have 3 paths:
 
    This Roadmap focused for full-stack development. So you can choose any of your suitable path.
 
-#### Fundamental Skills
+### Fundamental Skills
 
 - Basic Knowledge of Internet - How Does the Internet Work? DNS, Domain Names, HTTP, Whats are servers? What is hosting? and How does a browser work?
 
@@ -111,7 +111,7 @@ Instead Lean Tailwind:
 
 - Chakra UI and Material UI. (Recommended after React.js)
 
-###### Now Choose any framework of JS
+#### Now Choose any framework of JS
 
 React.js Recommended.
 
@@ -159,7 +159,7 @@ Basic fundamental skills are required those mentioned above.
 
 You can go with other languages like PHP, Java, Rust, Python and Go but Javascript is highly recommended.
 
-###### Learn Databases
+#### Learn Databases
 - Relational Databases - [MySQL](https://youtu.be/7S_tz1z_5bA) or PostgreSQL are reccomended.
 - NoSQL Databases - MongoDB recommended.
 
@@ -169,39 +169,39 @@ You can go with other languages like PHP, Java, Rust, Python and Go but Javascri
 
 - Learn about ACID, ORMs, Transactions, Database Normalization etc.
 
-###### APIs
+#### APIs
 [FreeCodeCamp-Tutorial](https://youtu.be/GZvSYJDk-us)
 
 - REST APIs - [Tutorial](https://youtu.be/BZi44GOD8kY)
 
 - JSON [Tutorial](https://youtu.be/iiADhChRriM)
 
-###### Web Security
+#### Web Security
 - [HTTPS](https://youtu.be/iYM2zFP3Zn0)
 
-###### GraphQL
+#### GraphQL
 - [GraphQL Docs](https://graphql.org/learn/)
 
 - [FreeCodeCamp-Tutorial](https://youtu.be/ed8SzALpx1Q)
 
-###### Learn about CDNs and Caching
+#### Learn about CDNs and Caching
 - [CDN Caching, Static Site Generation, and Server Side Rendering](https://youtu.be/bfLFHp7Sbkg)
 
-#### Extra (DEVOPS)
+### Extra (DEVOPS)
 
-###### Make your command line strong, live in a terminal, Linux always recommended.
+##### Make your command line strong, live in a terminal, Linux always recommended.
 Try installing Linux on your computer.
 For begginers Ubuntu and Manjaro are recommended.
 
-###### Containerization
+#### Containerization
 - [Docker](https://youtu.be/3c-iBn73dDE)
 - [Kubernetes](https://youtu.be/X48VuDVv0do)
 
-###### Web Servers
+#### Web Servers
 - Nginx
 - [Apache](https://youtu.be/rCr3-YlL5S8)
 
-###### Learn about DevOps
+#### Learn about DevOps
 - Managing servers
 - [System Administration](https://youtu.be/1DvTwuByjo0)
 - [Linux Sever Course from freecodecamp](https://youtu.be/WMy3OzvBWc0)
