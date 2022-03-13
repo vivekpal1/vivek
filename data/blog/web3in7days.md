@@ -1,6 +1,6 @@
 ---
 banner_alt: blockchain
-banner: https://source.unsplash.com/1600x600/?blockchain
+banner: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80
 title: I learned Web 3 in 7 Days
 description: Here is how I learned basics of blockchain and smart contracts.
 date: '2022-03-01'
