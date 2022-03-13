@@ -28,6 +28,8 @@ We have 3 paths:
 
 ### Fundamental Skills
 
+---
+
 - Basic Knowledge of Internet - How Does the Internet Work? DNS, Domain Names, HTTP, Whats are servers? What is hosting? and How does a browser work?
 
 [CS50-Video-on-Web-Technologies](https://youtu.be/2VauFS071pg)
@@ -81,6 +83,8 @@ To master some in-depth topics in javascript, and what works behind the scenes o
 [CS50](https://youtu.be/eulnSXkhE7I)
 
 - Use git and github in all your projects.
+
+---
 
 ### Frontend Development
 
@@ -145,6 +149,7 @@ Also if you have learned Vue.js you can go ahead and learn Nuxt.js.
 - For Mobile Apps - React Native
 - For Desktop Apps - Electron
 
+---
 
 ### Backend Development
 
@@ -205,3 +210,5 @@ For begginers Ubuntu and Manjaro are recommended.
 - Managing servers
 - [System Administration](https://youtu.be/1DvTwuByjo0)
 - [Linux Sever Course from freecodecamp](https://youtu.be/WMy3OzvBWc0)
+
+---
