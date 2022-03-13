@@ -123,6 +123,17 @@ export function useNavigation() {
 						sound: !settings.sound,
 					})),
 			},
+			{
+				type: NavigationItemType.ACTION,
+				icon: 'feather:image',
+				endIcon: background ? 'feather:check-square' : 'feather:square',
+				text: `Animations ${background ? 'On' : 'Off'}`,
+				onClick: () =>
+					state.set((settings) => ({
+						...settings,
+						animations: !settings.animations,
+					})),
+			}
 		],
 	];
 
