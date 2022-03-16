@@ -1,0 +1,13 @@
+{
+	"version": 2,
+	"alias": "vivekpal.vercel.app",
+	"cleanUrls": true,
+	"public": true,
+	"regions": ["lhr1"],
+	"redirects": [
+		{ "source": "/github", "destination": "https://github.com/vivekpal1" },
+		{ "source": "/instagram", "destination": "https://github.com/vivekthinks" },
+		{ "source": "/linkedin", "destination": "https://www.linkedin.com/in/vivekpal1" },
+		{ "source": "/twitter", "destination": "https://twitter.com/vivekpal_" }
+	]
+}
