@@ -40,7 +40,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:instagram',
-			text: 'Twitter',
+			text: 'Instagram',
 			href: 'https://instagram.com/vivekthinks',
 			external: true,
 		},
