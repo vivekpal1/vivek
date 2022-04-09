@@ -202,6 +202,8 @@ For begginers Ubuntu and Manjaro are recommended.
 - [Docker](https://youtu.be/3c-iBn73dDE)
 - [Kubernetes](https://youtu.be/X48VuDVv0do)
 
+##### CI/CD Pipeline
+
 #### Web Servers
 - Nginx
 - [Apache](https://youtu.be/rCr3-YlL5S8)
