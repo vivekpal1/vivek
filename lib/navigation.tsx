@@ -62,7 +62,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'feather:email',
 			text: 'Mail Me',
-			href: 'mailto: 31vivekpal@gmail.com',
+			href: 'mailto: vivekpal@duck.com',
 			external: true,
 		},
 	],
