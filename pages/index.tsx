@@ -101,7 +101,7 @@ export default function HomePage() {
 			<Container>
 				<Content>
 					{animations ? (
-						<Transition duration={1000}>
+						<Transition duration={100}>
 							<Title>
 								Hello, This is <LineBreak /> Vivek Pal
 								<LineBreak />
@@ -115,7 +115,7 @@ export default function HomePage() {
 						</Title>
 					)}
 					{animations ? (
-						<Transition delay={500} duration={1000}>
+						<Transition delay={50} duration={100}>
 							<Description>{description}</Description>
 						</Transition>
 					) : (
@@ -135,7 +135,7 @@ export default function HomePage() {
 								);
 
 							return (
-								<Transition delay={1000 + index * 100} key={index} duration={1000}>
+								<Transition delay={100 + index * 10} key={index} duration={100}>
 									<Button.Outline href={action.href}>
 										{action.icon}
 										<ActionText>{action.text}</ActionText>

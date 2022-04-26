@@ -13,7 +13,7 @@ const Button = styled.button(tw`
 	text-gray-400 hover:text-gray-700 dark:hover:text-white \
 	rounded-lg \
 	text-sm font-medium \
-	transition ease-in-out duration-100
+	transition ease-in-out duration-75
 	focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary-500
 `);
 

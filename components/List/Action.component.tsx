@@ -11,7 +11,7 @@ const ButtonStyles = css`
 		border border-gray-100 dark:border-gray-500 \
 		rounded-lg \
 		text-sm font-medium \
-		transition ease-in-out duration-100
+		transition ease-in-out duration-75
 		focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary-500
 	`}
 

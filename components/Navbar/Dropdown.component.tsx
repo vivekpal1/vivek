@@ -68,7 +68,7 @@ const StyledMenuItem = styled.a<Pick<MenuLinkProps, '$active'>>`
 		px-4 py-3 \
 		text-sm font-medium tracking-wide \
 		cursor-pointer \
-		transition ease-in-out duration-100
+		transition ease-in-out duration-75
 	`}
 
 	${({ $active }) =>

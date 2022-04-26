@@ -40,7 +40,7 @@ export const ElementStyles = css`
 		${tw`
 			dark:text-white \
 			no-underline rounded \
-			transition duration-100 ease-in-out \
+			transition duration-75 ease-in-out \
 			focus:outline-none focus:ring-4 focus:ring-primary-500 focus:ring-offset-2
 		`}
 
@@ -48,7 +48,7 @@ export const ElementStyles = css`
 			${tw`
 				border-b-0 \
 				opacity-60 no-underline \
-				transition duration-100 ease-in-out
+				transition duration-75 ease-in-out
 			`}
 
 			&:hover {
@@ -76,7 +76,7 @@ export const ElementStyles = css`
 	img {
 		${tw`
 			rounded-3xl object-cover select-none hover:shadow-xl \
-			transition ease-in-out duration-100
+			transition ease-in-out duration-75
 		`}
 	}
 

@@ -30,7 +30,7 @@ const ButtonStyles = css(tw`
 	bg-gray-50 hover:bg-gray-100 hover:bg-opacity-50 dark:bg-gray-900 dark:hover:bg-gray-800 \
 	text-base font-bold text-primary-300 hover:text-primary-400 \
 	rounded-lg \
-	transition ease-in-out duration-100 \
+	transition ease-in-out duration-75 \
 	focus:outline-none focus:ring-1 focus:ring-primary-600
 `);
 
