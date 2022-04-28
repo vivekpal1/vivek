@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import tw from 'twin.macro';
 import { MDXRemote } from 'next-mdx-remote';
 
-import { Blog } from '~/components';
+import { Blog, Pill } from '~/components';
 import { getPost, getAllPostSlugs } from '~/lib/post';
 import { Layout } from '~/layouts';
 
@@ -69,7 +69,7 @@ const Banner = styled.div`
 			absolute top-0 left-0 w-full h-auto max-h-64 lg:max-h-96 \
 			mb-8 \
 			rounded-3xl object-cover select-none shadow-xl \
-			transition ease-in-out duration-75
+			transition ease-in-out duration-300
 		`}
 	}
 `;
@@ -158,6 +158,11 @@ export default function BlogPost({ post }: BlogPostProps) {
 							)}
 							<Title>{post.frontmatter.title}</Title>
 						</div>
+
+						<DateContainer>
+							<Pill.Date>{post.frontmatter.date}</Pill.Date>
+						</DateContainer>
+
 						{post.frontmatter.description && post.frontmatter.description_show && (
 							<Description>{post.frontmatter.description}</Description>
 						)}

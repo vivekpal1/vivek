@@ -3,8 +3,8 @@ import tw from 'twin.macro';
 import { differenceInYears, isSameDay, isSameMonth } from 'date-fns';
 import { Icon } from '@iconify/react';
 
-import { Button, Transition, } from '~/components';
-import { NavigationItemType,} from '~/types';
+import { Button, Event, Pill, Transition, Wave } from '~/components';
+import { EventType, NavigationItemType, WithChildren } from '~/types';
 import { Layout } from '~/layouts';
 import { usePersistantState } from '~/lib';
 
@@ -29,11 +29,15 @@ const Title = styled.h1(tw`
 const Description = styled.p(tw`
 	max-w-xs \
 	mt-4 md:mt-8 mx-auto \
-	text-base text-gray-300 sm:text-lg md:text-xl md:max-w-3xl
+	text-base text-gray-400 dark:text-gray-300 sm:text-lg md:text-xl md:max-w-3xl
 `);
 
 const LineBreak = styled.br(tw`
 	hidden sm:block
+`);
+
+const StyledPill = styled(Pill.Standard)(tw`
+	mt-4
 `);
 
 const Actions = styled.div`
@@ -94,14 +98,16 @@ export default function HomePage() {
 	const age = differenceInYears(today, birthday);
 	const isBirthday = isSameDay(today, birthday) && isSameMonth(today, birthday);
 
-	const description = `I am ${age} year old Web Developer from India. I love to build things and solve problems. I am currently working on some good open source projects. You can visit my projects page.`;
+	const description = `I am ${age} year old Web Developer from India. I love to build things and solve problems.
+	I am currently working on some good open source projects. You can visit my projects page.`;
 
 	return (
 		<Layout.Default>
+			{isBirthday && <Event event={EventType.BIRTHDAY} />}
 			<Container>
 				<Content>
 					{animations ? (
-						<Transition duration={100}>
+						<Transition duration={1000}>
 							<Title>
 								Hello, This is <LineBreak /> Vivek Pal
 								<LineBreak />
@@ -115,7 +121,7 @@ export default function HomePage() {
 						</Title>
 					)}
 					{animations ? (
-						<Transition delay={50} duration={100}>
+						<Transition delay={500} duration={1000}>
 							<Description>{description}</Description>
 						</Transition>
 					) : (
@@ -135,7 +141,7 @@ export default function HomePage() {
 								);
 
 							return (
-								<Transition delay={100 + index * 10} key={index} duration={100}>
+								<Transition delay={1000 + index * 100} key={index} duration={1000}>
 									<Button.Outline href={action.href}>
 										{action.icon}
 										<ActionText>{action.text}</ActionText>

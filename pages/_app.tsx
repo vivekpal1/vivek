@@ -1,21 +1,37 @@
+import NProgress from 'nprogress';
+import Router from 'next/router';
 import tw, { GlobalStyles as TailwindStyles } from 'twin.macro';
 import { AppProps } from 'next/app';
 import { css, Global as EmotionStyles } from '@emotion/react';
 import { ThemeProvider } from 'next-themes';
 import { Toaster } from 'react-hot-toast';
+import { useEvent } from 'react-use';
 
 import 'inter-ui/inter.css';
 import 'nprogress/nprogress.css';
+
+import { useAnalytics, useClick } from '~/lib';
 import { Theme } from '~/types';
+
+NProgress.configure({
+	minimum: 0.3,
+	easing: 'ease',
+	speed: 2000,
+	showSpinner: false,
+});
+
+Router.events.on('routeChangeStart', () => NProgress.start());
+Router.events.on('routeChangeComplete', () => NProgress.done());
+Router.events.on('routeChangeError', () => NProgress.done());
 
 const GlobalStyles = css`
 	html {
 		${tw`
 			antialiased \
 			bg-gray-100 \
-			text-gray-700 dark:text-gray-400 \
+			text-gray-800 dark:text-gray-400 \
 			font-inter \
-			transition ease-in-out duration-75
+			transition ease-in-out duration-100
 		`}
 
 		&.dark {
@@ -47,7 +63,13 @@ const GlobalStyles = css`
 `;
 
 export default function App({ Component, pageProps }: AppProps) {
-	
+	const [play] = useClick();
+
+	useAnalytics();
+
+	useEvent('mousedown', () => play());
+	useEvent('mouseup', () => play());
+
 	return (
 		<ThemeProvider attribute="class" defaultTheme={Theme.SYSTEM} themes={Object.values(Theme)}>
 			<EmotionStyles styles={GlobalStyles} />
