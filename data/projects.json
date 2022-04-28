@@ -1,0 +1,22 @@
+[
+	{
+		"date": "01-07-2022",
+		"title": "This Website",
+		"description": "Launched my first personal website",
+		"icon": "feather:edit-3",
+		"link": {
+			"text": "Visit",
+			"url": "https://vivekpal.vercel.app/"
+		}
+	},
+	{
+		"date": "03-22-2022",
+		"title": "Shastra OS",
+		"description": "An Arch Linux based OS for Web 3.",
+		"icon": "feather:monitor",
+		"link": {
+			"text": "Visit",
+			"url": "https://shastraos.vercel.app/"
+		}
+	}
+]
