@@ -37,7 +37,8 @@ const StyledItems = styled(Menu.Items)<{ position: Position }>`
 	${tw` 
 		absolute sm:w-56 \ 
 		mt-2 \ 
-		bg-gray-50 bg-opacity-75 dark:bg-gray-800 dark:bg-opacity-75 \ 
+		bg-gray-100 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 \ 
+		text-gray-800 dark:text-gray-100 \
 		backdrop-filter backdrop-blur-sm \ 
 		border border-gray-100 dark:border-gray-500 \ 
 		rounded-md shadow-lg \ 
@@ -68,7 +69,7 @@ const StyledMenuItem = styled.a<Pick<MenuLinkProps, '$active'>>`
 		px-4 py-3 \
 		text-sm font-medium tracking-wide \
 		cursor-pointer \
-		transition ease-in-out duration-75
+		transition ease-in-out duration-100
 	`}
 
 	${({ $active }) =>

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styled from '@emotion/styled';
 import tw from 'twin.macro';
 
+import { Pill } from '~/components';
 
 import type { FrontMatter } from '~/types';
 
@@ -18,8 +19,8 @@ const Container = styled.a(tw`
 	border-2 border-gray-100 dark:border-gray-500 \
 	rounded-2xl overflow-hidden hover:shadow-xl cursor-pointer \
 	transform motion-safe:hover:-translate-y-1 \
-	transition ease-in-out duration-75 \
-	focus:outline-none focus:ring-2 focus:ring-offset-8 focus:ring-primary-500
+	transition ease-in-out duration-100 \
+	focus:outline-none focus:ring-4 focus:ring-offset-8 focus:ring-primary-500
 `);
 
 const Banner = styled.div`
@@ -58,13 +59,13 @@ const Content = styled.div<{ banner: boolean }>`
 const ContextText = styled.div(tw`
 	flex flex-col flex-1 justify-around \
 	rounded-lg \
-	text-gray-300 dark:text-gray-400 \
+	text-gray-400 dark:text-gray-50 \
 	focus:outline-none focus:ring-4 focus:border-none focus:ring-primary-500
 `);
 
 const Title = styled.p(tw`
 	text-xl font-bold \
-	text-gray-900 dark:text-gray-100
+	text-gray-900 dark:text-gray-50
 `);
 
 const Description = styled.p(tw`
@@ -106,6 +107,9 @@ export function _Post({ index, frontmatter }: PostProps) {
 								{frontmatter.description}
 							</Description>
 						)}
+						<Footer>
+							<Pill.Date>{frontmatter.date}</Pill.Date>
+						</Footer>
 					</ContextText>
 				</Content>
 			</Container>

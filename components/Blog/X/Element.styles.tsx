@@ -9,7 +9,7 @@ export const ElementStyles = css`
 	h5,
 	h6 {
 		${tw`
-			dark:text-white
+			dark:text-gray-50
 		`}
 
 		a {
@@ -38,9 +38,10 @@ export const ElementStyles = css`
 
 	a {
 		${tw`
-			dark:text-white \
+			text-primary-900
+			dark:text-primary-500 \
 			no-underline rounded \
-			transition duration-75 ease-in-out \
+			transition duration-100 ease-in-out \
 			focus:outline-none focus:ring-4 focus:ring-primary-500 focus:ring-offset-2
 		`}
 
@@ -48,12 +49,12 @@ export const ElementStyles = css`
 			${tw`
 				border-b-0 \
 				opacity-60 no-underline \
-				transition duration-75 ease-in-out
+				transition duration-100 ease-in-out
 			`}
 
 			&:hover {
 				${tw`
-					opacity-75
+					opacity-100
 				`}
 			}
 		}
@@ -63,20 +64,21 @@ export const ElementStyles = css`
 	ul,
 	li {
 		${tw`
-			text-gray-400
+			text-gray-500
+			dark:text-gray-300
 		`}
 	}
 
 	strong {
 		${tw`
-			dark:text-white
+			dark:text-gray-50
 		`}
 	}
 
 	img {
 		${tw`
 			rounded-3xl object-cover select-none hover:shadow-xl \
-			transition ease-in-out duration-75
+			transition ease-in-out duration-100
 		`}
 	}
 

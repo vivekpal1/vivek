@@ -3,6 +3,8 @@ import Link from 'next/link';
 import styled from '@emotion/styled';
 import tw from 'twin.macro';
 
+import { Pill } from '~/components';
+
 import type { FrontMatter } from '~/types';
 
 interface LatestProps {
@@ -17,7 +19,7 @@ const Container = styled.a(tw`
 	rounded-2xl hover:shadow-xl cursor-pointer \
 	border-2 border-gray-100 dark:border-gray-500 \
 	transform motion-safe:hover:-translate-y-1 \
-	transition ease-in-out duration-75 \
+	transition ease-in-out duration-100 \
 	focus:outline-none focus:ring-4 focus:ring-offset-8 focus:ring-primary-500
 `);
 
@@ -27,7 +29,7 @@ const Banner = styled.div`
 		w-full xl:w-2/4 lg:max-w-xl h-64 sm:h-72 lg:h-96 \
 		border-b-2 sm:border-0 sm:border-r-2 border-gray-100 dark:border-gray-500 \
 		overflow-hidden rounded-2xl rounded-bl-none lg:rounded-bl-2xl rounded-br-none lg:rounded-br-2xl lg:rounded-tr-none lg:rounded-br-none \
-		transition ease-in-out duration-75
+		transition ease-in-out duration-100
 	`}
 
 	img {
@@ -49,7 +51,7 @@ const BannerPlaceholder = styled.div(tw`
 const Content = styled.div(tw`
 	flex flex-col flex-1 justify-evenly \
 	m-auto sm:m-0 pb-3 sm:p-1 sm:pt-0 lg:px-12 \
-	text-gray-300 dark:text-gray-400
+	text-gray-400 dark:text-gray-50
 `);
 
 const Title = styled.h2(tw`
@@ -93,6 +95,9 @@ export function Latest({ frontmatter }: LatestProps) {
 							{frontmatter.description || frontmatter.description}
 						</Description>
 					)}
+					<Footer>
+						<Pill.Date>{frontmatter.date}</Pill.Date>
+					</Footer>
 				</Content>
 			</Container>
 		</Link>
