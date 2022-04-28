@@ -11,7 +11,7 @@ module.exports = {
 			},
 			colors: {
 				gray: {
-					50: '#D4F4FB',
+					50: '#F0F0FF',
 					100: '#E4E6E6',
 					200: '#BBCCCC',
 					300: '#8AA3AB',
@@ -29,10 +29,10 @@ module.exports = {
 					300: '#14E4EC',
 					400: '#08E3EC',
 					500: '#4FC0B6',
-					600: '#00D9EC',
+					600: '#00A9AC',
 					700: '#00E1CC',
-					800: '#05C9AF',
-					900: '#01C6A2',
+					800: '#05A99F',
+					900: '#112927',
 				},
 			},
 			fontFamily: {
@@ -43,3 +43,5 @@ module.exports = {
 	variants: {},
 	plugins: [require('@tailwindcss/line-clamp'), require('@tailwindcss/typography')],
 };
+
+
