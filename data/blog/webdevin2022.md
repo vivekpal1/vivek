@@ -66,7 +66,7 @@ We have 3 paths:
 
 - Now you must build awesome projects with these skills. [Projects List from freeCodeCamp.org](https://www.freecodecamp.org/news/javascript-projects-for-beginners/)
 
-To master some in-depth topics in javascript, and what works behind the scenes of javascript, you must watch [Namaste Javascript](https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
+To master some in-depth topics in javascript, and what works behind the scenes of javascript, hands on to [Namaste Javascript](https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP) course by Akshay Saini
 
 ### Git and Github
 
@@ -89,7 +89,7 @@ To master some in-depth topics in javascript, and what works behind the scenes o
 ### Frontend Development
 
 You must have master all Fundamental Skills mentioned above.
-For front end development other than above HTML knowledge you must lean basics of 
+For front end development other than above HTML knowledge you must learn basics of 
 
 - [SEO](https://youtu.be/MYE6T_gd7H0)
 
@@ -196,7 +196,7 @@ You can go with other languages like PHP, Java, Rust, Python and Go but Javascri
 
 ##### Make your command line strong, live in a terminal, Linux always recommended.
 Try installing Linux on your computer.
-For begginers Ubuntu and Manjaro are recommended.
+For begginers Fedora and Manjaro are recommended.
 
 #### Containerization
 - [Docker](https://youtu.be/3c-iBn73dDE)
