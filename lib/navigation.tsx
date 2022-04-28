@@ -24,9 +24,9 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:clock',
-			text: 'Timeline',
-			href: '/timeline',
+			icon: 'feather:compass',
+			text: 'Works',
+			href: '/projects',
 		},
 	],
 	[
@@ -104,7 +104,17 @@ export function useNavigation() {
 
 	const settingsItems: NavigationItems = [
 		[
-			
+			{
+				type: NavigationItemType.ACTION,
+				icon: 'feather:image',
+				endIcon: background ? 'feather:check-square' : 'feather:square',
+				text: `Animations ${background ? 'On' : 'Off'}`,
+				onClick: () =>
+					state.set((settings) => ({
+						...settings,
+						animations: !settings.animations,
+					})),
+			},
 			{
 				type: NavigationItemType.ACTION,
 				icon: 'feather:moon',
@@ -123,17 +133,6 @@ export function useNavigation() {
 						sound: !settings.sound,
 					})),
 			},
-			{
-				type: NavigationItemType.ACTION,
-				icon: 'feather:image',
-				endIcon: background ? 'feather:check-square' : 'feather:square',
-				text: `Animations ${background ? 'On' : 'Off'}`,
-				onClick: () =>
-					state.set((settings) => ({
-						...settings,
-						animations: !settings.animations,
-					})),
-			}
 		],
 	];
 
