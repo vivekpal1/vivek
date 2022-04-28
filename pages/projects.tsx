@@ -2,15 +2,16 @@ import styled from '@emotion/styled';
 import tw from 'twin.macro';
 import { format, parse } from 'date-fns';
 import { Icon } from '@iconify/react';
-import { Button} from '~/components';
+
+import { Button, Pill } from '~/components';
 import { Layout } from '~/layouts';
 
 import type { GetStaticProps } from 'next';
 
-import type { Timeline, TimelineEvent } from '~/types';
+import type { Projects, ProjectsEvent } from '~/types';
 
-interface TimelineProps {
-	timeline?: Timeline;
+interface ProjectsProps {
+	projects?: Projects;
 }
 
 const Container = styled.div(tw`
@@ -36,7 +37,7 @@ const ListItemContainer = styled.div(tw`
 	pb-8
 `);
 
-const TimelineConnector = styled.span(tw`
+const ProjectsConnector = styled.span(tw`
 	absolute top-1 left-1/2 w-0.5 h-full \
 	-ml-px \
 	bg-gray-200 dark:bg-gray-600
@@ -99,36 +100,36 @@ const EventLinkButtonIcon = styled(Icon)(tw`
 	ml-3
 `);
 
-export const getStaticProps: GetStaticProps<TimelineProps> = async () => {
-	const { default: rawTimeline } = await import('~/data/timeline.json');
-	const timeline = (rawTimeline as Array<TimelineEvent>).sort(
+export const getStaticProps: GetStaticProps<ProjectsProps> = async () => {
+	const { default: rawProjects } = await import('~/data/projects.json');
+	const projects = (rawProjects as Array<ProjectsEvent>).sort(
 		(a, b) => +new Date(b.date) - +new Date(a.date),
 	);
 
 	return {
 		props: {
-			timeline,
+			projects,
 		},
 	};
 };
 
-export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
-	const timeline = rawTimeline.map((event) => ({
+export default function ProjectsPage({ projects: rawProjects }: ProjectsProps) {
+	const projects = rawProjects.map((event) => ({
 		...event,
 		// Note: Custom parser needed as Safari on iOS doesn't like the standard `new Date()` parsing
 		date: parse(event.date.toString(), 'MM-dd-yyyy', new Date()),
 	}));
 
 	return (
-		<Layout.Default seo={{ title: 'Timeline' }}>
+		<Layout.Default seo={{ title: 'Projects' }}>
 			<Container>
 				<Content>
 					<List role="list">
-						{timeline.map((event, index) => (
+						{projects.map((event, index) => (
 							<ListItem key={event.title}>
 								<ListItemContainer tw="">
-									{index !== timeline.length - 1 ? (
-										<TimelineConnector aria-hidden="true" />
+									{index !== projects.length - 1 ? (
+										<ProjectsConnector aria-hidden="true" />
 									) : null}
 
 									<EventCard>
@@ -140,6 +141,9 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 											<Title>
 												<span>{event.title}</span>
 												<Spacer />
+												<Pill.Date small={true}>
+													{format(event.date, 'PPP')}
+												</Pill.Date>
 											</Title>
 
 											<Description>{event.description}</Description>

@@ -1,4 +1,4 @@
-export interface TimelineEvent {
+export interface ProjectsEvent {
 	date: Date | string;
 	title: string;
 	description?: string;
@@ -9,4 +9,4 @@ export interface TimelineEvent {
 	};
 }
 
-export type Timeline = Array<TimelineEvent>;
+export type Projects = Array<ProjectsEvent>;
