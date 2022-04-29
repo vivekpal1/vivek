@@ -9,17 +9,17 @@ export function useSeoProps(
 	const router = useRouter();
 
 	const title = 'Vivek Pal';
-	const description = "Hey 👋 This is Vivek Pal, a Web Developer";
+	const description = "Hey 👋 This is Vivek Pal, a Web Developer. I love to build things and solve problems. I am currently working on some good open source projects. You can visit my projects page.";
 
 	return {
 		title,
 		description,
-		canonical: `https://vivekpal.verce.app/${router.asPath}`,
+		canonical: `https://vivekpal.in/${router.asPath}`,
 		openGraph: {
 			title,
 			description,
 			site_name: 'Vivek Pal',
-			url: `https://vivekpal.vercel.app/${router.asPath}`,
+			url: `https://vivekpal.in/${router.asPath}`,
 			type: 'website',
 			images: [
 				{
