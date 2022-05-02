@@ -10,7 +10,7 @@ export default function Document() {
 				<link rel="icon" type="image/png" href="/favicon.png" />
 				<Script
    id="Adsense-id"
-   data-ad-client=ca-pub-7873717544167301"
+   data-ad-client="ca-pub-7873717544167301"
    async="true"
    strategy="beforeInteractive"
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
