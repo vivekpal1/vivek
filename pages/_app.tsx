@@ -69,7 +69,23 @@ export default function App({ Component, pageProps }: AppProps) {
 
 	useEvent('mousedown', () => play());
 	useEvent('mouseup', () => play());
+	
+	 const router = useRouter();
 
+	  const handleRouteChange = (url) => {
+   	 window.gtag('config', '[Tracking ID]', {
+ 	     page_path: url,
+	    });
+	  };
+
+	  useEffect(() => {
+	    router.events.on('routeChangeComplete', handleRouteChange);
+	    return () => {
+	      router.events.off('routeChangeComplete', handleRouteChange);
+	    };
+	  }, [router.events]);
+
+ 
 	return (
 		<ThemeProvider attribute="class" defaultTheme={Theme.SYSTEM} themes={Object.values(Theme)}>
 			<EmotionStyles styles={GlobalStyles} />
