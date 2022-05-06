@@ -98,7 +98,7 @@ export default function HomePage() {
 	const age = differenceInYears(today, birthday);
 	const isBirthday = isSameDay(today, birthday) && isSameMonth(today, birthday);
 
-	const description = `I am ${age} year old Web Developer from India. I love to build things and solve problems.
+	const description = `I am ${age} year old Front End Developer and designer from India. I love to build things and solve problems.
 	I am currently working on some good open source projects. You can visit my projects page.`;
 
 	return (
