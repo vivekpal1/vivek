@@ -13,10 +13,10 @@ The increasing popularity and promising intrinsic properties of blockchain techn
 Here are some of the ultimate **resources to learn Web3**.
 
 ## Websites
-- [LearnWeb3.io](https://www.learnweb3.io/)
-- [Ethereum.org Resources](https://ethereum.org/en/developers/)
+- [LearnWeb3.io](https://www.learnweb3.io/)  (recommended)
+- [Ethereum.org Resources](https://ethereum.org/en/developers/)  (recommended)
 - [Remix Ethereum IDE](https://remix.ethereum.org/)
-- [Cadena](https://cadena.dev/)
+- [Cadena](https://cadena.dev/)  (recommended)
 - [Figment](https://learn.figment.io/)
 - [Finematics](https://finematics.com/)
 - [Dapp University](https://www.dappuniversity.com/)
@@ -25,7 +25,7 @@ Here are some of the ultimate **resources to learn Web3**.
 - [useWeb3](https://www.useweb3.xyz/)
 - [ChainShot](https://www.chainshot.com/)
 - [NFT School](https://nftschool.dev/)
-- [Solana Resources](https://solana.com/developers)
+- [Solana Resources](https://solana.com/developers)  (recommended)
 - [Start Building on Solana](https://www.startonsolana.com/)
 - [Pointer](https://www.pointer.gg/)
 - [SolDev](https://soldev.app/)
@@ -34,7 +34,7 @@ Here are some of the ultimate **resources to learn Web3**.
 
 ## Youtube
 ### Channels
-- [Dapp University](https://www.youtube.com/c/DAppuniversity)
+- [Dapp University](https://www.youtube.com/c/DAppuniversity)  (recommended)
 - [Ivan on Tech](https://www.youtube.com/c/IvanonTech)
 - [Finematics](https://www.youtube.com/c/Finematics)
 - [Whiteboard Crypto](https://www.youtube.com/c/WhiteboardCrypto)
@@ -46,7 +46,7 @@ Here are some of the ultimate **resources to learn Web3**.
 
 ### Single Video
 - [Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial - by Patrick Collins on freeCodeCamp.org](https://youtu.be/M576WGiDBdQ)
-- [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course- by Patrick Collins on freeCodeCamp.org](https://youtu.be/gyMwXuJrbJQ)
+- [Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course- by Patrick Collins on freeCodeCamp.org](https://youtu.be/gyMwXuJrbJQ)  (recommended)
 
 ### Playlists
 - [Will it Scale - Solidity](https://www.youtube.com/c/EatTheBlocks)
