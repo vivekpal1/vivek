@@ -12,6 +12,11 @@ export default function Document() {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-BLC8J28LJB"
         />
+	 <script
+	 async
+	 src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7873717544167301'
+	 crossOrigin="anonymous"
+	 />
 
         <script
           dangerouslySetInnerHTML={{
