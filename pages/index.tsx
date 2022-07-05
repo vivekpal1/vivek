@@ -81,13 +81,13 @@ const ACTIONS: Array<NavigationItem> = [
 		icon: <ActionIcon icon="feather:github" />,
 		text: 'GitHub',
 	},
-	// {
-	// 	type: NavigationItemType.LINK,
-	// 	external: true,
-	// 	href: 'https://instagram.com/vivekthinks',
-	// 	icon: <ActionIcon icon="feather:instagram" />,
-	// 	text: 'Instagram',
-	// },
+	{
+		type: NavigationItemType.LINK,
+		external: true,
+		href: '/resume.pdf',
+		icon: <ActionIcon icon="feather:download" />,
+		text: 'Resume',
+	},
 ];
 
 export default function HomePage() {
@@ -99,7 +99,7 @@ export default function HomePage() {
 	const isBirthday = isSameDay(today, birthday) && isSameMonth(today, birthday);
 
 	const description = `I am ${age} year old Front End Developer and designer from India. I love to build things and solve problems.
-	I am currently working on some good open source projects. You can visit my projects page.`;
+	I am currently working on ShastraOS and some other good open source projects. You can visit my projects page.`;
 
 	return (
 		<Layout.Default>
