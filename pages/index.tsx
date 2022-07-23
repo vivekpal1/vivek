@@ -81,13 +81,13 @@ const ACTIONS: Array<NavigationItem> = [
 		icon: <ActionIcon icon="feather:github" />,
 		text: 'GitHub',
 	},
-	{
-		type: NavigationItemType.LINK,
-		external: true,
-		href: '/resume.pdf',
-		icon: <ActionIcon icon="feather:download" />,
-		text: 'Resume',
-	},
+	// {
+	// 	type: NavigationItemType.LINK,
+	// 	external: true,
+	// 	href: '/resume.pdf',
+	// 	icon: <ActionIcon icon="feather:download" />,
+	// 	text: 'Resume',
+	// },
 ];
 
 export default function HomePage() {
