@@ -9,7 +9,7 @@ date: '2022-03-01'
 I was leaning normal Web Development. Thus also eager to learn about blockchain. Here I precised how you can learn blockchain in less time.
 
 
-## What the hell is Web3?
+## What the heck is Web3?
 
 ---
 
